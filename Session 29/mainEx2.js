@@ -20,7 +20,7 @@ function searchProductById(id) {
     console.log(" Những đối tượng tìm thấy:");
     console.table(found);
   } else {
-    console.log("❌ Không tìm thấy sản phẩm có ID:", id);
+    console.log("Không tìm thấy sản phẩm có ID:", id);
   }
 }
 
